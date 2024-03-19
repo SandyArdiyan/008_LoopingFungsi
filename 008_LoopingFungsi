@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int nTelor, nMie, nAir;
+int htelor = 2000, hMie = 2800, hAir = 3000;
+string nama;
+
+void input()
+{
+    cout <<"Masukan Nama"
+    cin >> nama;
+    cout << "Masukan Jumlah Telor" =";
+    cin >> nMie;
+    cout << "Masukan Jumlah Air Mie= ";
+    cin >> nMie;
+    cout << "Masukan Jumlah Air Mineral =";
+    cin >> nAir;
+}
+
+int hitungharga()
+{
+    return (nTelor * hTelor) + (nMie * hMie) + (nAir * hAir);
+}
+void display()
+{
+    cout << "nama = "<< nama << endl;
+    cout << "jumlah telor = "<<nMie<<endl;
+    cout << "jumlah mie = "<< nmie << endl"
+    cout <<"Jumlah air = "<< nAir << endl;
+    cout << "Total harga Rp." << hitungharga() << endl;
