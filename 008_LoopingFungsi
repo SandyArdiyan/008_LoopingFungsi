@@ -28,3 +28,19 @@ void display()
     cout << "jumlah mie = "<< nmie << endl"
     cout <<"Jumlah air = "<< nAir << endl;
     cout << "Total harga Rp." << hitungharga() << endl;
+    cout << "Total Harga Rp." << hitung Harga() << endl ;
+}
+
+int main()
+{
+    char pilihan;
+    do
+    {
+        input();
+        display();
+
+        cout << "Apakah anda ingin mengulangi (y/n) ? ";
+        cin >> pilihan;
+
+    } while (pilihan == 'y' || pilihan == 'Y');
+}
